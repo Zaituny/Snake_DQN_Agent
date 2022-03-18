@@ -62,7 +62,7 @@ model.add(Dense(nb_actions))
 model.add(Activation('linear'))
 print(model.summary())
 
-model.load_weights("test_dqn_snake_weights.h5f") 
+model.load_weights("dqn_snake_weights.h5f") 
 
 memory = SequentialMemory(limit = 1000000, window_length=WINDOW_LENGTH)
 
