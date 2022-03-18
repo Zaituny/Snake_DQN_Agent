@@ -1,2 +1,2 @@
 # Snake_DQN_Agent
-an AI that plays snake
+an AI that plays snake.
